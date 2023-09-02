@@ -6,7 +6,7 @@ public interface IUsuarioService {
     public Usuario crearUsuario(Usuario nuevoUsuario);
     public Usuario actualizarUsuario(int id);
     public List<Usuario> listarUsuario();
-    public Usuario listarUsuarioID(int idUsuario);
+
     public void eliminarUsuario(int id);
 
     Usuario listarUsuarioId(int id);

@@ -6,6 +6,11 @@ import lombok.NoArgsConstructor;
 
 import java.util.List;
 
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Table
+@Entity
 public class Profesor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

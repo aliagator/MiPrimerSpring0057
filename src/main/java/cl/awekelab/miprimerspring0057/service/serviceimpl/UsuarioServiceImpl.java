@@ -27,7 +27,7 @@ public class UsuarioServiceImpl implements IUsuarioService {
     }
 
     @Override
-    public Usuario listarUsuarioID(int idUsuario) {
+    public Usuario listarUsuarioId(int idUsuario) {
         return null;
     }
 

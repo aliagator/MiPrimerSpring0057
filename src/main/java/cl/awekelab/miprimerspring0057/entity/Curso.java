@@ -20,7 +20,7 @@ public class Curso {
     @Column(length = 1)
     private String nombreCurso;
 
-    @ManyToMany(mappedBy = "listacurso")
+    @ManyToMany(mappedBy = "listaCursos")
     private List<Profesor> listaprofesores;
 
     @OneToMany(mappedBy = "cursoAsignado")
